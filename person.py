@@ -13,6 +13,8 @@ class Person:
         full_name = self.first_name + ' ' +self.last_name
         return full_name
       
+
+      
       
 a=Person('Ravshan','Abdulrakhman',1950)
 print(a.get_age())
