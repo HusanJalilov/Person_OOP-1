@@ -12,11 +12,13 @@ class Person:
     def get_full_name(self):
         full_name = self.first_name + ' ' +self.last_name
         return full_name
-      
+    def get_last_name(self):
+        last_name=self.last_name
+        return last_name
 
       
       
 a=Person('Ravshan','Abdulrakhman',1950)
 print(a.get_age())
-
+print(a.get_last_name())
 
